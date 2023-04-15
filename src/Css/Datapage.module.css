@@ -1,0 +1,154 @@
+.data{
+    background-color:#273244;
+    margin-left:210px;
+     position:absolute;
+      
+      height:700px;
+      min-height:700px;
+     width:779px;
+    color:white;
+    border-right:19px solid #111a29;
+   
+}
+.show{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    
+    font-size: 14px;
+}
+.show label{
+    margin-right:10px;
+    margin-left:10px;
+     
+}
+ 
+.detailbar{
+    background-color: #111a29;
+    margin-left: 10px;
+    margin-right: 5px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    margin-top: 15px;
+display: flex; 
+height:35px;
+align-items: center;}
+.detailbar span{
+    margin-left:9px;
+    margin-right:36px;
+    font-size:13px;
+   padding:3px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+     
+ }
+ 
+.map{
+    display: flex;
+   margin-left: 10px;
+     
+    align-items: center;
+    border-bottom: 1px solid grey;
+padding:5px;
+}
+
+.map span{
+    display:flex;
+    
+    margin-right: 40px;
+    font-size:13px;
+    margin-left:0px;
+  
+}
+.map svg{
+    font-size:14px;
+
+}
+.android  span {
+    display: flex;
+     
+    align-items:center;
+    
+}
+
+
+ 
+
+ 
+
+.daterange{
+  color:white;
+position: absolute;
+z-index: 1999;
+right:16px;     
+ 
+}
+.daterange section {
+    color: gray;
+    font-weight:bold;
+    width:319px;
+    border:2px solid gray;
+    border-radius:5px ;
+    padding:5px;
+ 
+    padding-left:30px;
+ display: flex;
+    align-items: center;
+justify-content: space-between;
+background-color: #273244;}
+
+
+.daterange svg {
+    padding-right:25px;
+}
+.outerPagination{
+    background-color: #111a29;
+    height:60px;
+    width: 330px;
+    margin-top:30px;
+    border-radius:5px;
+    position:relative;
+    left:430px
+}
+.pagination{
+    display: flex;
+    align-items: center;
+    background-color: #273244;
+    position:absolute;
+    z-index:999;
+    min-width: 250px;
+    border-radius: 40px;
+    height:35px;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+
+}
+.pagination svg{
+    color:gray;
+    display: flex;
+    align-items: center;
+    
+}
+
+.selectentries{
+ color:white;
+ 
+ background-color: #273244;
+ 
+ border:1px solid gray;
+ border-radius:5px;
+ padding:5px;
+padding-left:10px;
+padding-right:8px;
+}
+ .selectentries optgroup{
+    
+ 
+    border:1px solid gray;
+    border-radius:5px;
+    padding:5px;
+   padding-left:10px;
+   padding-right:8px;
+ }
+ 

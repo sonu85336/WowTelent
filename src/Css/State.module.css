@@ -1,0 +1,56 @@
+.State{
+    color:white;
+    background-color:#273244;
+    margin-left:153px;
+    width:836px;
+    height:200px;
+   
+   
+   border-top:16px solid #111a29;
+   border-right:19px solid #111a29;
+   border-bottom:25px solid #111a29;
+   
+   
+}
+ 
+.topstate{
+    display: flex;
+    margin-bottom:30px;
+}
+
+.State span{
+  display: flex;
+   
+    margin-top:15px;
+    margin-left: 39px;
+    margin-right:20px;
+ align-items: flex-start;
+
+  
+ 
+}
+.State span svg {
+font-size:18px;
+padding:12px;
+border:1px solid  white;
+border-radius:25px;
+color:#111a29;
+background-color: white;
+ 
+   position:absolute;
+}
+.inside{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+     min-width:110px;
+      
+   
+}
+.inside p{
+    font-size:13px;
+margin-top:0px;
+    margin-bottom:0px;
+  letter-spacing:-0.5px;
+}
+ 
